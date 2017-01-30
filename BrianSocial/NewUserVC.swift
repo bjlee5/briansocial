@@ -6,4 +6,9 @@
 //  Copyright © 2017 LionsEye. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class NewUserVC: UIViewController {
+    
+    
+}

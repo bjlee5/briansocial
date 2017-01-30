@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5200A2B933EED643EAF7DEC2 /* Pods_BrianSocial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEAF63B2441B4AC5166B7BD1 /* Pods_BrianSocial.framework */; };
 		D065027B1E3FCF3000ECE7D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D065027A1E3FCF3000ECE7D2 /* AppDelegate.swift */; };
-		D065027D1E3FCF3000ECE7D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D065027C1E3FCF3000ECE7D2 /* ViewController.swift */; };
+		D065027D1E3FCF3000ECE7D2 /* LogInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D065027C1E3FCF3000ECE7D2 /* LogInVC.swift */; };
 		D06502801E3FCF3000ECE7D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D065027E1E3FCF3000ECE7D2 /* Main.storyboard */; };
 		D06502831E3FCF3000ECE7D2 /* BrianSocial.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D06502811E3FCF3000ECE7D2 /* BrianSocial.xcdatamodeld */; };
 		D06502851E3FCF3000ECE7D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D06502841E3FCF3000ECE7D2 /* Assets.xcassets */; };
 		D06502881E3FCF3000ECE7D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D06502861E3FCF3000ECE7D2 /* LaunchScreen.storyboard */; };
+		D06502901E3FE4B400ECE7D2 /* NewUserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D065028F1E3FE4B400ECE7D2 /* NewUserVC.swift */; };
+		D06502921E3FE4CA00ECE7D2 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06502911E3FE4CA00ECE7D2 /* FeedVC.swift */; };
+		D06502941E3FE6F600ECE7D2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D06502931E3FE6F600ECE7D2 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A8693595123F0529422A380 /* Pods-BrianSocial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrianSocial.release.xcconfig"; path = "Pods/Target Support Files/Pods-BrianSocial/Pods-BrianSocial.release.xcconfig"; sourceTree = "<group>"; };
+		7C9088B1B3E7FF50EF2780F6 /* Pods-BrianSocial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrianSocial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BrianSocial/Pods-BrianSocial.debug.xcconfig"; sourceTree = "<group>"; };
 		D06502771E3FCF3000ECE7D2 /* BrianSocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrianSocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D065027A1E3FCF3000ECE7D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D065027C1E3FCF3000ECE7D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D065027C1E3FCF3000ECE7D2 /* LogInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInVC.swift; sourceTree = "<group>"; };
 		D065027F1E3FCF3000ECE7D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D06502821E3FCF3000ECE7D2 /* BrianSocial.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BrianSocial.xcdatamodel; sourceTree = "<group>"; };
 		D06502841E3FCF3000ECE7D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D06502871E3FCF3000ECE7D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D06502891E3FCF3000ECE7D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D065028F1E3FE4B400ECE7D2 /* NewUserVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewUserVC.swift; sourceTree = "<group>"; };
+		D06502911E3FE4CA00ECE7D2 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		D06502931E3FE6F600ECE7D2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DEAF63B2441B4AC5166B7BD1 /* Pods_BrianSocial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrianSocial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5200A2B933EED643EAF7DEC2 /* Pods_BrianSocial.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		289C36EBB3B171776123425F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C9088B1B3E7FF50EF2780F6 /* Pods-BrianSocial.debug.xcconfig */,
+				4A8693595123F0529422A380 /* Pods-BrianSocial.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D065026E1E3FCF2F00ECE7D2 = {
 			isa = PBXGroup;
 			children = (
 				D06502791E3FCF3000ECE7D2 /* BrianSocial */,
 				D06502781E3FCF3000ECE7D2 /* Products */,
+				289C36EBB3B171776123425F /* Pods */,
+				D579072BE394DAE8F51E4178 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +79,25 @@
 			isa = PBXGroup;
 			children = (
 				D065027A1E3FCF3000ECE7D2 /* AppDelegate.swift */,
-				D065027C1E3FCF3000ECE7D2 /* ViewController.swift */,
+				D065027C1E3FCF3000ECE7D2 /* LogInVC.swift */,
+				D065028F1E3FE4B400ECE7D2 /* NewUserVC.swift */,
+				D06502911E3FE4CA00ECE7D2 /* FeedVC.swift */,
 				D065027E1E3FCF3000ECE7D2 /* Main.storyboard */,
 				D06502841E3FCF3000ECE7D2 /* Assets.xcassets */,
 				D06502861E3FCF3000ECE7D2 /* LaunchScreen.storyboard */,
 				D06502891E3FCF3000ECE7D2 /* Info.plist */,
 				D06502811E3FCF3000ECE7D2 /* BrianSocial.xcdatamodeld */,
+				D06502931E3FE6F600ECE7D2 /* GoogleService-Info.plist */,
 			);
 			path = BrianSocial;
+			sourceTree = "<group>";
+		};
+		D579072BE394DAE8F51E4178 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEAF63B2441B4AC5166B7BD1 /* Pods_BrianSocial.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D065028C1E3FCF3000ECE7D2 /* Build configuration list for PBXNativeTarget "BrianSocial" */;
 			buildPhases = (
+				56B5D88FA3A7BCEFB8C91F5D /* [CP] Check Pods Manifest.lock */,
 				D06502731E3FCF2F00ECE7D2 /* Sources */,
 				D06502741E3FCF2F00ECE7D2 /* Frameworks */,
 				D06502751E3FCF2F00ECE7D2 /* Resources */,
+				36A82A0C2A3878CA837DA8DB /* [CP] Embed Pods Frameworks */,
+				1985AE4C6D694FE8A889D009 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D06502881E3FCF3000ECE7D2 /* LaunchScreen.storyboard in Resources */,
+				D06502941E3FE6F600ECE7D2 /* GoogleService-Info.plist in Resources */,
 				D06502851E3FCF3000ECE7D2 /* Assets.xcassets in Resources */,
 				D06502801E3FCF3000ECE7D2 /* Main.storyboard in Resources */,
 			);
@@ -134,12 +171,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1985AE4C6D694FE8A889D009 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BrianSocial/Pods-BrianSocial-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36A82A0C2A3878CA837DA8DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BrianSocial/Pods-BrianSocial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56B5D88FA3A7BCEFB8C91F5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D06502731E3FCF2F00ECE7D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D065027D1E3FCF3000ECE7D2 /* ViewController.swift in Sources */,
+				D06502901E3FE4B400ECE7D2 /* NewUserVC.swift in Sources */,
+				D065027D1E3FCF3000ECE7D2 /* LogInVC.swift in Sources */,
+				D06502921E3FE4CA00ECE7D2 /* FeedVC.swift in Sources */,
 				D06502831E3FCF3000ECE7D2 /* BrianSocial.xcdatamodeld in Sources */,
 				D065027B1E3FCF3000ECE7D2 /* AppDelegate.swift in Sources */,
 			);
@@ -262,6 +349,7 @@
 		};
 		D065028D1E3FCF3000ECE7D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C9088B1B3E7FF50EF2780F6 /* Pods-BrianSocial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BrianSocial/Info.plist;
@@ -274,6 +362,7 @@
 		};
 		D065028E1E3FCF3000ECE7D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A8693595123F0529422A380 /* Pods-BrianSocial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BrianSocial/Info.plist;
@@ -303,6 +392,7 @@
 				D065028E1E3FCF3000ECE7D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

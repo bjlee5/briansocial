@@ -1,0 +1,6 @@
+framework module Pods_BrianSocial {
+  umbrella header "Pods-BrianSocial-umbrella.h"
+
+  export *
+  module * { export * }
+}
